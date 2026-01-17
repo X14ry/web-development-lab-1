@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        nav a {
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Web Page!!</h1>
+        <p>This is a simple webpage which demonstrates basic HTML elemnts including 
+            text, lists, forms, tables, and semantics layout.</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <br>
+
+    <!-- Exercise 1: Create a Simple Web Page -->
+     <h1>My Web Page</h1>
+     <h2>Here, I have created a simple webpage with basic HTML elements.</h2>
+     <h3>This is a first step towards creating a more complex webpage.</h3>
+
+    <p>HTML is the standard foundation used to 
+        create and design pages on the World Wide Web. Rather than a programming 
+        language that handles complex logic, HTML is a markup language that defines 
+        the structure and organization of web content using a system of "tags." These 
+        tags act as instructions for web browsers, telling them how to distinguish between 
+        different types of information—such as identifying which text is a primary heading, 
+        which is a paragraph, and where an image or a hyperlink should be placed. By nesting 
+        these elements within one another, developers create a semantic document that browsers 
+        can parse and render into the visual interfaces we interact with every day.</p>
+
+    <p>In this exercise I am practicing how to organizes information using lists, 
+        links, and images to create a functional layout.
+    </p>        
+
+    <h3>My Favorite fruits</h3>
+    <u>
+        <li>Mangoes</li>
+        <li>Bananas</li>
+        <li>Grapes</li>
+    </u>
+
+    <h3>Steps to learn HTML</h3>
+    <ol>
+        <li>Understand basic syntax</li>
+        <li>Practice writing HTML tags</li>
+        <li>Learn about semantic elements</li>
+    </ol>
+
+    <p>For more resources, visit the <a href="https://www.w3schools.com/html/">HTML documentation</a> 
+        to learn HTML tutorials.</p>
+
+    <h3>A Simple Image</h3>
+    <img src="img.png" alt="A monitor show HTML code" width="500">
+
+    <!-- Exercise 2: Building a form -->
+     <h1>User Registration form</h1>
+     
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="m" name="g"><label for="m">Male</label>
+            <input type="radio" id="f" name="g"><label for="f">Female</label>
+            <input type="radio" id="o" name="g"><label for="o">Other</label><br><br>
+
+            <label>Hobbies:</label><br>
+            <input type="checkbox" id="h1"><label for="h1">Reading</label>
+            <input type="checkbox" id="h2"><label for="h2">Gaming</label>
+            <input type="checkbox" id="h3"><label for="h3">Sports</label><br><br>
+
+            <label for="com">Comments:</label><br>
+            <textarea id="com"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>   
+        
+        <br>
+
+    <!-- Exercise 3: HTML Tables -->
+     <h1>HTML Tables</h1>
+       <table>
+            <caption>Student Information Table</caption>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+            <tr>
+                <td>Ram</td>
+                <td>21</td>
+                <td>Kathmandu</td>
+            </tr>
+            <tr>
+                <td>Sita</td>
+                <td colspan="2">Pokhara (Age 22)</td>
+            </tr>
+            <tr>
+                <td>Hari</td>
+                <td>23</td>
+                <td>Butwal</td>
+            </tr>
+        </table>
+        
+        <br>
+
+        <a href="semantic.html">View Semantic Webpage</a>
+</body>
+</html>
